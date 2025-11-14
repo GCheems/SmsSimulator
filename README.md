@@ -48,7 +48,7 @@ SMS Simulator 是一个用于测试和开发目的的 Android 应用，允许您
 
 1. **克隆项目**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/GCheems/SmsSimulator
    cd SmsSimulator
    ```
 
