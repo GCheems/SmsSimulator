@@ -1,0 +1,261 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.smssimulator"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.READ_SMS" />
+11-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:3:5-67
+11-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.WRITE_SMS" />
+12-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:4:5-68
+12-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:4:22-65
+13    <uses-permission android:name="android.permission.SEND_SMS" />
+13-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:5:5-67
+13-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:5:22-64
+14    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+14-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:6:5-70
+14-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:6:22-67
+15    <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH" />
+15-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:7:5-75
+15-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:7:22-72
+16    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+16-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:8:5-70
+16-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:8:22-67
+17    <uses-permission android:name="android.permission.SEND_RESPOND_VIA_MESSAGE" />
+17-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:9:5-83
+17-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:9:22-80
+18
+19    <permission
+19-->[androidx.core:core:1.12.0] C:\Users\Feiyu\.gradle\caches\transforms-3\4e116a93cb58fedfe700f980927d2f70\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+20        android:name="com.example.smssimulator.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+20-->[androidx.core:core:1.12.0] C:\Users\Feiyu\.gradle\caches\transforms-3\4e116a93cb58fedfe700f980927d2f70\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+21        android:protectionLevel="signature" />
+21-->[androidx.core:core:1.12.0] C:\Users\Feiyu\.gradle\caches\transforms-3\4e116a93cb58fedfe700f980927d2f70\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+22
+23    <uses-permission android:name="com.example.smssimulator.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+23-->[androidx.core:core:1.12.0] C:\Users\Feiyu\.gradle\caches\transforms-3\4e116a93cb58fedfe700f980927d2f70\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.12.0] C:\Users\Feiyu\.gradle\caches\transforms-3\4e116a93cb58fedfe700f980927d2f70\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+24
+25    <application
+25-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:11:5-83:19
+26        android:allowBackup="true"
+26-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:12:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.12.0] C:\Users\Feiyu\.gradle\caches\transforms-3\4e116a93cb58fedfe700f980927d2f70\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+28        android:dataExtractionRules="@xml/data_extraction_rules"
+28-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:13:9-65
+29        android:debuggable="true"
+30        android:extractNativeLibs="true"
+31        android:fullBackupContent="@xml/backup_rules"
+31-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:14:9-54
+32        android:icon="@drawable/ic_launcher"
+32-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:15:9-45
+33        android:label="@string/app_name"
+33-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:16:9-41
+34        android:roundIcon="@drawable/ic_launcher_round"
+34-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:17:9-56
+35        android:supportsRtl="true"
+35-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:18:9-35
+36        android:theme="@style/Theme.SmsSimulator" >
+36-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:19:9-50
+37        <activity
+37-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:20:9-35:20
+38            android:name="com.example.smssimulator.ComposeSmsActivity"
+38-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:21:13-47
+39            android:exported="true" >
+39-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:22:13-36
+40            <intent-filter>
+40-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:23:13-34:29
+41                <action android:name="android.intent.action.SEND" />
+41-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:24:17-69
+41-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:24:25-66
+42                <action android:name="android.intent.action.SENDTO" />
+42-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:25:17-71
+42-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:25:25-68
+43
+44                <category android:name="android.intent.category.DEFAULT" />
+44-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:27:17-76
+44-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:27:27-73
+45                <category android:name="android.intent.category.BROWSABLE" />
+45-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:28:17-78
+45-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:28:27-75
+46
+47                <data android:scheme="sms" />
+47-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:30:17-46
+47-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:30:23-43
+48                <data android:scheme="smsto" />
+48-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:30:17-46
+48-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:30:23-43
+49                <data android:scheme="mms" />
+49-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:30:17-46
+49-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:30:23-43
+50                <data android:scheme="mmsto" />
+50-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:30:17-46
+50-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:30:23-43
+51            </intent-filter>
+52        </activity>
+53
+54        <receiver
+54-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:37:9-44:20
+55            android:name="com.example.smssimulator.SmsReceiver"
+55-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:38:13-40
+56            android:exported="true"
+56-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:39:13-36
+57            android:permission="android.permission.BROADCAST_SMS" >
+57-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:40:13-66
+58            <intent-filter>
+58-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:41:13-43:29
+59                <action android:name="android.provider.Telephony.SMS_DELIVER" />
+59-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:42:17-81
+59-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:42:25-78
+60            </intent-filter>
+61        </receiver>
+62        <receiver
+62-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:46:9-54:20
+63            android:name="com.example.smssimulator.MmsReceiver"
+63-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:47:13-40
+64            android:exported="true"
+64-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:48:13-36
+65            android:permission="android.permission.BROADCAST_WAP_PUSH" >
+65-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:49:13-71
+66            <intent-filter>
+66-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:50:13-53:29
+67                <action android:name="android.provider.Telephony.WAP_PUSH_DELIVER" />
+67-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:51:17-86
+67-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:51:25-83
+68
+69                <data android:mimeType="application/vnd.wap.mms-message" />
+69-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:30:17-46
+69-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:52:23-73
+70            </intent-filter>
+71        </receiver>
+72
+73        <service
+73-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:56:9-71:19
+74            android:name="com.example.smssimulator.RespondViaMessageService"
+74-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:57:13-53
+75            android:exported="true"
+75-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:58:13-36
+76            android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE" >
+76-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:59:13-77
+77            <intent-filter>
+77-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:60:13-70:29
+78                <action android:name="android.intent.action.RESPOND_VIA_MESSAGE" />
+78-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:61:17-84
+78-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:61:25-81
+79
+80                <category android:name="android.intent.category.DEFAULT" />
+80-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:27:17-76
+80-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:27:27-73
+81
+82                <data android:scheme="sms" />
+82-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:30:17-46
+82-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:30:23-43
+83                <data android:scheme="smsto" />
+83-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:30:17-46
+83-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:30:23-43
+84                <data android:scheme="mms" />
+84-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:30:17-46
+84-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:30:23-43
+85                <data android:scheme="mmsto" />
+85-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:30:17-46
+85-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:30:23-43
+86                <data android:scheme="tel" />
+86-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:30:17-46
+86-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:30:23-43
+87            </intent-filter>
+88        </service>
+89
+90        <activity
+90-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:73:9-82:20
+91            android:name="com.example.smssimulator.MainActivity"
+91-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:74:13-41
+92            android:exported="true"
+92-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:75:13-36
+93            android:theme="@style/Theme.SmsSimulator" >
+93-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:76:13-54
+94            <intent-filter>
+94-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:77:13-81:29
+95                <action android:name="android.intent.action.MAIN" />
+95-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:78:17-69
+95-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:78:25-66
+96
+97                <category android:name="android.intent.category.LAUNCHER" />
+97-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:80:17-77
+97-->C:\Users\Feiyu\Desktop\SmsSimulator\app\src\main\AndroidManifest.xml:80:27-74
+98            </intent-filter>
+99        </activity>
+100
+101        <provider
+101-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Feiyu\.gradle\caches\transforms-3\7918a0903eaf556f87a3c8015b25c845\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+102            android:name="androidx.startup.InitializationProvider"
+102-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Feiyu\.gradle\caches\transforms-3\7918a0903eaf556f87a3c8015b25c845\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+103            android:authorities="com.example.smssimulator.androidx-startup"
+103-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Feiyu\.gradle\caches\transforms-3\7918a0903eaf556f87a3c8015b25c845\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+104            android:exported="false" >
+104-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Feiyu\.gradle\caches\transforms-3\7918a0903eaf556f87a3c8015b25c845\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+105            <meta-data
+105-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Feiyu\.gradle\caches\transforms-3\7918a0903eaf556f87a3c8015b25c845\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+106                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+106-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Feiyu\.gradle\caches\transforms-3\7918a0903eaf556f87a3c8015b25c845\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+107                android:value="androidx.startup" />
+107-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Feiyu\.gradle\caches\transforms-3\7918a0903eaf556f87a3c8015b25c845\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+108            <meta-data
+108-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Feiyu\.gradle\caches\transforms-3\cb827f80b145198375f6b713b94ad477\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+109                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+109-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Feiyu\.gradle\caches\transforms-3\cb827f80b145198375f6b713b94ad477\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+110                android:value="androidx.startup" />
+110-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Feiyu\.gradle\caches\transforms-3\cb827f80b145198375f6b713b94ad477\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+111            <meta-data
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Feiyu\.gradle\caches\transforms-3\d5929732306d216afcb2566d246fba4c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+112                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Feiyu\.gradle\caches\transforms-3\d5929732306d216afcb2566d246fba4c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+113                android:value="androidx.startup" />
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Feiyu\.gradle\caches\transforms-3\d5929732306d216afcb2566d246fba4c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+114        </provider>
+115
+116        <receiver
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Feiyu\.gradle\caches\transforms-3\d5929732306d216afcb2566d246fba4c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+117            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Feiyu\.gradle\caches\transforms-3\d5929732306d216afcb2566d246fba4c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+118            android:directBootAware="false"
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Feiyu\.gradle\caches\transforms-3\d5929732306d216afcb2566d246fba4c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+119            android:enabled="true"
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Feiyu\.gradle\caches\transforms-3\d5929732306d216afcb2566d246fba4c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+120            android:exported="true"
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Feiyu\.gradle\caches\transforms-3\d5929732306d216afcb2566d246fba4c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+121            android:permission="android.permission.DUMP" >
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Feiyu\.gradle\caches\transforms-3\d5929732306d216afcb2566d246fba4c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+122            <intent-filter>
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Feiyu\.gradle\caches\transforms-3\d5929732306d216afcb2566d246fba4c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+123                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Feiyu\.gradle\caches\transforms-3\d5929732306d216afcb2566d246fba4c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Feiyu\.gradle\caches\transforms-3\d5929732306d216afcb2566d246fba4c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+124            </intent-filter>
+125            <intent-filter>
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Feiyu\.gradle\caches\transforms-3\d5929732306d216afcb2566d246fba4c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+126                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Feiyu\.gradle\caches\transforms-3\d5929732306d216afcb2566d246fba4c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Feiyu\.gradle\caches\transforms-3\d5929732306d216afcb2566d246fba4c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+127            </intent-filter>
+128            <intent-filter>
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Feiyu\.gradle\caches\transforms-3\d5929732306d216afcb2566d246fba4c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+129                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Feiyu\.gradle\caches\transforms-3\d5929732306d216afcb2566d246fba4c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Feiyu\.gradle\caches\transforms-3\d5929732306d216afcb2566d246fba4c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+130            </intent-filter>
+131            <intent-filter>
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Feiyu\.gradle\caches\transforms-3\d5929732306d216afcb2566d246fba4c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+132                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Feiyu\.gradle\caches\transforms-3\d5929732306d216afcb2566d246fba4c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Feiyu\.gradle\caches\transforms-3\d5929732306d216afcb2566d246fba4c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+133            </intent-filter>
+134        </receiver>
+135    </application>
+136
+137</manifest>

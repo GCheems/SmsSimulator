@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvBanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:text="@string/credit_banner"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status: Unknown" />
+
+    <Button
+        android:id="@+id/btnRequestDefault"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="步骤 1：设为默认短信应用" />
+
+    <EditText
+        android:id="@+id/etSender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="发件人 (例如: 10086)"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/etBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="短信内容" />
+
+    <Button
+        android:id="@+id/btnWriteSms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="步骤 2：写入模拟短信" />
+
+    <TextView
+        android:id="@+id/tvWarning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="警告：此操作有风险。要恢复原状，请在写入后，手动去系统设置中改回默认短信应用。"
+        android:textSize="12sp" />
+
+</LinearLayout>
